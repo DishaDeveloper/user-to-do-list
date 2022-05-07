@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
+
+
+$main-blue: #1572A1;
+$main-white: #fff;
+$sub-grey: #ccc;
+$main-grey: #f2f2f2;
+$main-green: #68EACC;
+$sub-blue:#86C6F4;
+$main-red:#e74c3c;
+$body-color:#212529;
+
+
+@mixin desktop {
+
+    /* Medium devices (desktops, 1024px and up) */
+    @media only screen and (min-width: 1024px) {
+        @content;
+    }
+}
